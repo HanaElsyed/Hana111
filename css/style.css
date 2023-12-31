@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    /* display: none; */
+    z-index: 1000;
+
+}
+
+.navbar .name {
+    color: #6f6011;
+    font-weight: bold;
+
+}
+
+.home {
+    width: 100wh;
+    height: calc(100vh - 67px);
+    background-image: url(../images/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.icon a {
+    color: white;
+}
+i.fas.fa-arrow-down.d {
+    font-size: 35px;
+    color: #a71212;
+    animation-name: down;
+    animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-delay: 0.3ms;
+  animation-direction: alternate;
+}
+@keyframes down {
+    from {
+        transform: translateY(20px);
+    }
+    
+    to {
+        transform: translateY(40px);
+    }
+}
+
+.Praise, .fat {
+    text-align: center;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.p {
+    position: relative;
+}
+.pp {
+    background: #eeeeee59;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    right: 37%;
+    cursor: pointer;
+    z-index: 10000;
+    -webkit-user-select: none;
+    user-select: none;
+}
+button {
+    margin: 10px 0;
+    background: red;
+    border: 0;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+i.fas.fa-heart {
+    position: absolute;
+    color: red;
+    top: 20px;
+    z-index: 1000;
+    font-size: 75px;
+    right: 40%;
+}
+audio {
+    width: 100%;
+    display: block;
+}
+
+button.read {
+    width: 35%;
+    margin: 30px 0;
+    background: linear-gradient(45deg, black, transparent);
+    position: relative;
+    right: 40%;
+    cursor: pointer;
+}
+.omi {
+    background-image: url(../images/PhoXo98.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    height: 360px;
+}
+.om {
+    background-image: url(../images/download.jpeg);
+}
+.hamza {
+    background-image: url(../images/Screenshot_٢٠٢٣١٢٣٠-٢١٠٤٥٨_WhatsAppBusiness.jpg);
+}
+.hamza1 {
+    background-image: url(../images/22.png)
+}
+.omi h6 {
+    font-size: 20px;
+}
+.red {
+    position: absolute;
+    width: 85%;
+    height: 80vh;
+    left: 26px;
+    background: #352f2f;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 7px 3px 10px white;
+    display: block;
+    transition: all 0.5s;
+    z-index: 1000;
+    overflow-y: scroll;
+    transform: translateX(200%);
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+button.close {
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+}
+.red p {
+    margin: 70px 0;
+    font-size: 22px;
+    color: floralwhite;
+}
+.videos {
+    width: 100%;
+    text-align: center;
+}
+.video {
+    width: 100%;
+}
+video {
+    width: 100%;
+}
+.videos h2 {
+    background-color: #352f2f;
+    padding: 6px;
+    color: #fff;
+}
+.videos h1 {
+    color: gold;
+    box-shadow: -3px 4px 2px blueviolet;
+    animation-name: col;
+    animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-delay: 0.3ms;
+  animation-direction: alternate;
+  margin-bottom: 72px;
+
+}
+@keyframes col {
+    from {
+        transform: translateY(20px);
+        box-shadow: -3px 0px 2px rgb(216, 206, 224);
+
+    }
+    
+    to {
+        transform: translateY(40px);
+        box-shadow: -3px 10px 2px rgb(65, 63, 66);
+
+    }
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
